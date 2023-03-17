@@ -1,0 +1,43 @@
+---
+title: "Work location"
+description: |
+  Welcome to my website. I hope you'll enjoy it!
+site: distill::distill_website
+---
+
+## Learning Objectives
+
+After completing this tutorial, you will be able to:
+
+-   Create an interactive leaflet map using R and quarto.
+-   Customize an interactive map with data-driven popups.
+
+## What You Need
+
+You will need a computer with internet access to complete this lesson.
+
+## Load packages
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+library(dplyr)
+library(ggplot2)
+library(rjson)
+library(jsonlite)
+library(leaflet)
+library(RCurl)
+library(htmlwidgets)
+library(webshot)
+
+```
+
+## ISRA location
+
+```{r}
+ISRA <- leaflet() %>%
+  addTiles() %>%  # use the default base map which is OpenStreetMap tiles
+  addMarkers(lng=-17.433626, lat=14.722032,
+             popup="ISRA, Pole de Recherche de Hann")
+ISRA
+```
+

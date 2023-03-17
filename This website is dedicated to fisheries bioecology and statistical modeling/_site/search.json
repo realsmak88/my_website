@@ -1,0 +1,21 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this site",
+      "description": "Some additional details about the website",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2023-03-17T12:44:42+00:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Work location",
+      "description": "Welcome to my website. I hope you'll enjoy it!\n",
+      "author": [],
+      "contents": "\nLearning Objectives\nAfter completing this tutorial, you will be able to:\nCreate an interactive leaflet map using R and quarto.\nCustomize an interactive map with data-driven popups.\nWhat You Need\nYou will need a computer with internet access to complete this lesson.\nLoad packages\nISRA location\n\n\n\n\n\n\n",
+      "last_modified": "2023-03-17T12:59:29+00:00"
+    }
+  ],
+  "collections": []
+}
