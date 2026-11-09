@@ -198,3 +198,8 @@ body.quarto-custom-layout, .page-layout-custom { background: var(--papier); }
 .navbar .nav-link[lang] { font-weight: 700; border: 1.5px solid currentColor; border-radius: 6px; padding: .15rem .55rem !important; margin: .35rem .4rem; }
 
 .kb-tarifs{max-width:860px;margin:1.6rem auto 0;padding:1rem 1.25rem;border-left:4px solid var(--bs-primary,#0b5c7a);background:rgba(11,92,122,.06);border-radius:6px;line-height:1.55}
+
+/* Bandeau de navigation : bleu lagon dégradé, liseré sable (plus clair et plus vivant que l'ancien bleu nuit) */
+.navbar { background: linear-gradient(90deg, #0e7490 0%, #0f766e 100%) !important; border-bottom: 3px solid var(--sable); }
+.navbar .nav-link:hover, .navbar .nav-link:focus { color: #fde7cc !important; }
+.navbar .nav-link.active { color: #ffffff !important; text-decoration: underline; text-decoration-color: var(--sable); text-underline-offset: 6px; text-decoration-thickness: 2px; }
