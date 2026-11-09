@@ -33,9 +33,9 @@
 
 /* -- Galerie -- */
 .pf-filtres { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin: -12px 0 24px; }
-.pf-filtres button { border: 1.5px solid var(--marine); background: #fff; color: var(--marine); border-radius: 999px;
+.pf-filtres button { border: 1.5px solid var(--lagon); background: #fff; color: var(--lagon); border-radius: 999px;
   padding: .38em 1em; font-weight: 600; font-size: .92rem; cursor: pointer; }
-.pf-filtres button.actif { background: var(--marine); color: #fff; }
+.pf-filtres button.actif { background: linear-gradient(90deg, var(--lagon), var(--lagon-2)); border-color: var(--lagon); color: #fff; }
 .pf-galerie { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; }
 .pf-item { margin: 0; background: #fff; border: 1px solid var(--trait); border-radius: 14px; overflow: hidden; display: flex; flex-direction: column; }
 .pf-item[hidden] { display: none; }

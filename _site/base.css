@@ -203,3 +203,13 @@ body.quarto-custom-layout, .page-layout-custom { background: var(--papier); }
 .navbar { background: linear-gradient(90deg, #0e7490 0%, #0f766e 100%) !important; border-bottom: 3px solid var(--sable); }
 .navbar .nav-link:hover, .navbar .nav-link:focus { color: #fde7cc !important; }
 .navbar .nav-link.active { color: #ffffff !important; text-decoration: underline; text-decoration-color: var(--sable); text-underline-offset: 6px; text-decoration-thickness: 2px; }
+
+/* Boutons et pastilles : même bleu lagon que le bandeau (remplace le bleu foncé) */
+:root { --lagon: #0e7490; --lagon-2: #0f766e; }
+.kb-btn { background: linear-gradient(90deg, var(--lagon) 0%, var(--lagon-2) 100%); box-shadow: 0 8px 18px -10px rgba(14,116,144,.75); }
+.kb-btn:hover { background: linear-gradient(90deg, #0b8aa8 0%, #0d8a7f 100%); }
+.kb-btn.clair { background: #ffffff; color: var(--lagon) !important; border-color: var(--lagon); }
+.kb-btn.clair:hover { background: #e8f6f8; }
+.kb-projet .bandeau .titre, .kb-cv .poste .encours, .kb-etapes li::before { background: linear-gradient(90deg, var(--lagon) 0%, var(--lagon-2) 100%); }
+.btn-primary { background: linear-gradient(90deg, var(--lagon) 0%, var(--lagon-2) 100%) !important; border-color: var(--lagon) !important; color: #fff !important; }
+.btn-primary:hover { background: linear-gradient(90deg, #0b8aa8 0%, #0d8a7f 100%) !important; }
