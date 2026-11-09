@@ -1,0 +1,1 @@
+Sitemap: https://bakamarel.netlify.app/sitemap.xml
